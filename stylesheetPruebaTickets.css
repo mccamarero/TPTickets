@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+} 
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+}
+
+
+form{
+    align-self: flex-end;
+}
+
+.contenedor-logo{
+    display: flex;
+    padding: 5px;
+    height: 70px;
+    background-color: rgb(54, 52, 52);
+}
+
+.logo{
+height: 70px;
+width: 120px;
+margin-left: 25px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(54, 52, 52);
+    margin-left: none;
+    margin-right: none;
+}
+
+.contenedor-nav{
+    margin-right: 70px;
+}
+
+
+div {
+    display: block;
+}
+
+
+
+.d-flex{
+  
+caret-color: white;
+text-decoration-style: solid;
+font-weight: 400px;
+font-size: x-large;
+border-radius: 15px;
+border: 2px solid white;
+border-radius: 10px;
+}
+
+.btn1{
+
+background-color: transparent;
+
+}
+
+a {
+    color: white;
+    text-decoration: none; 
+}
+
+
+.oradores{
+    color: rgb(139, 134, 134);
+    font-size: large;
+    text-align: center; 
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
+.card-group{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+
+}
+
+.card1{
+   margin-right: 2px;
+}
+
+.row{
+    width: 700px;
+    display: flex;
+    -ms-grid-row-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    
+}
+
+
+
+h5{
+padding-top: 20px;
+padding-left: 5px;
+text-align: center;
+text-decoration-color: white;
+font-size: xx-large
+}
+
+#texto-invitacion{
+margin-top: 20px;
+margin-right: none;
+margin-left: none;
+
+text-decoration-color: white;
+font-size: small;
+text-align: left;
+    
+}
+
+.boton-conocemas{
+    margin-top: 100px;
+    font-size: small;
+    
+}
+
+#fondo{
+width: 100vw;
+height: 90px;
+background-color: #959597;
+}
+
+
+
+
+
+.oradores2{
+    font-size: large;
+    
+}
+
+
+
+.form-nombre{
+    width: 360px;
+    height: 30px;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: lightgrey;
+    margin-left: 110px;
+    font-size: medium;
+    text-decoration-color: grey;
+    }
+
+.form-apellido{
+        width: 360px;
+        height: 30px;
+        border-style: solid;
+        border-radius: 4px;
+        border-color: lightgrey;
+        margin-right: 50px;
+        font-size: medium;
+        text-decoration-color: grey;
+        }
+        
+
+        .form-cantidad{
+            width: 360px;
+            height: 30px;
+            border-style: solid;
+            border-radius: 4px;
+            border-color: lightgrey;
+            margin-left: 110px;
+            font-size: medium;
+            text-decoration-color: grey;
+            }
+            
+        .subtitulo-cantidad{
+            font-size: large;
+            margin-left: 140px;
+
+            
+        }
+        
+        .subtitulo-categoria{
+            font-size: large;
+            margin-bottom: 5px;
+            
+        }
+
+        .form-select{
+                width: 360px;
+                height: 30px;
+                border-style: solid;
+                border-radius: 4px;
+                border-color: lightgrey;
+                margin-right: 110px;
+                font-size: medium;
+                text-decoration-color: grey;
+                }
+
+
+    
+
+.exampleFormControlTextarea1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 330px;
+    padding: none;
+}
+
+
+
+.boton-enviar{
+    width: 705px;
+    align-content: center;
+    caret-color: white;
+    align-self: center;
+    border: none;
+    border-radius: 2px;
+    margin-left: 330px;
+    margin-right: auto;
+    
+}
+.boton-borrar{
+        width: 360px;
+        height: 30px;
+        border-style: solid;
+        border-radius: 4px;
+        border-color: limegreen;
+        caret-color: limegreen;
+        margin-left: 110px;
+        font-size: medium;
+        text-decoration-color: grey;
+        }
+
+.nav-item{
+    padding-right: 20px;
+    padding-left: 20px;
+    
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: opx;
+    padding-top: 5px;
+    text-align: vertical;
+    align-items: center;
+    width: 100vw;
+    background-color: rgb(60, 36, 128);
+    height: 70px;
+    
+}
